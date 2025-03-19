@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    border: 1px solid gray;
+    background-color: rgb(103, 175, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.small{
+    width: 50%;
+}
+.big{
+    width: 100%;
+}
+@media screen and (max-width: 480px) {.big, .small {
+        width: 100%;
+}
+}
